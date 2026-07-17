@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .neon-glow {
+    box-shadow: 0 0 5px #00F0FF, 0 0 15px #00F0FF, 0 0 30px #00F0FF44;
+    transition: box-shadow 0.2s ease;
+  }
+  .neon-border {
+    border-color: #00F0FF;
+    box-shadow: 0 0 5px #00F0FF, 0 0 10px #00F0FF55;
+  }
+  .neon-text {
+    text-shadow: 0 0 5px #00F0FF, 0 0 10px #00F0FF;
+  }
+  .bg-glass {
+    background: rgba(5, 5, 5, 0.7);
+    backdrop-filter: blur(12px);
+  }
+}
